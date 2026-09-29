@@ -1,6 +1,6 @@
 <?php
 /**
- * Страница "Список виджетов".
+ * Страница "Список плагинов".
  * 
  * Английская (британская) локализация.
  * 
@@ -11,38 +11,38 @@
  */
 ?>
 <article>
-    <h1>List of widgets</h1>
+    <h1>List of plugins</h1>
     <div class="g-help-screen g-help-screen--hidable">
         <img src="<?= $assetsUrl, '/help/grid.png' ?>" />
     </div>
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua</p>
+    <p>The list of plugins is dynamically generated based on the active filter: either installed plugins, uninstalled plugins, or both categories are displayed.</p>
     <h2>List columns</h2>
     <ul class="g-help-list">
-        <li><b>Name.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Identifier.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Path.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Author.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Version.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Use.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Enabled.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Status.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</li>
+        <li><b>Name.</b> Plugin name, description, and version;</li>
+        <li><b>Identifier.</b> Unique plugin identifier;</li>
+        <li><b>Path.</b> Local path to the installed plugin;</li>
+        <li><b>Author.</b> Plugin author;</li>
+        <li><b>Version.</b> Plugin version;</li>
+        <li><b>Enabled.</b> Plugin visibility in the Control Panel or on the website;</li>
+        <li><b>Status.</b> Plugin status: installed, not installed, error, unknown.</li>
     </ul>
 
     <h2>Toolbar</h2>
     <ul class="g-help-list">
-        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-install.svg' ?>" /> <b>Install.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-uninstall.svg' ?>" /> <b>Uninstall.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-delete.svg' ?>" /> <b>Delete.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-unmount.svg' ?>" /> <b>Unmount.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-edit.svg' ?>" /> <b>Edit.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-select.svg' ?>" /> <b>Select.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/refresh.svg' ?>" /> <b>Refresh.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-update-config.svg' ?>" /> <b>Refresh.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-profiling-off.svg' ?>" /> <b>Record profiling.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-toggle-columns-off.svg' ?>" /> <b>Show.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-columns.svg' ?>" /> <b>Columns.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/help.svg' ?>" /> <b>Help.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/search.svg' ?>" /> <b>Search.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/filter.svg' ?>" /> <b>Filter.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
+        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-install.svg' ?>" /> <b>Install.</b> Opens the form to install the selected plugin from the list;</li>
+        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-uninstall.svg' ?>" /> <b>Uninstall.</b> Completely removes the installed plugin;</li>
+        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-delete.svg' ?>" /> <b>Delete.</b> Removes the loaded plugin package;</li>
+        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-unmount.svg' ?>" /> <b>Unmount.</b> Unmount (uninstalls) an installed plugin without deleting it from the repository;</li>
+        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-download.svg' ?>" /> <b>Download.</b> Downloads the plugin package corresponding to the item selected in the list;</li>
+        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-upload.svg' ?>" /> <b>Upload.</b> Uploads the plugin package file for subsequent installation;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/plugins/images/grid/grid-edit.svg' ?>" /> <b>Edit.</b> Opens the plugin editing form;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/plugins/images/grid/grid-select.svg' ?>" /> <b>Select.</b> Selects or deselects plugins in the list;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/refresh.svg' ?>" /> <b>Refresh.</b> Refresh the list of plugins;</li>
+        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-update-config.svg' ?>" /> <b>Refresh.</b> Updates the configuration of installed plugins. Used when changes are made to the configuration files of plugins or the application;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/plugins/images/grid/grid-profiling-off.svg' ?>" /> <b>Record profiling.</b> Expands or collapses the navigation panel to display plugin information;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/plugins/images/grid/grid-toggle-columns-off.svg' ?>" /> <b>Show / Hide.</b> Shows or hides columns that are hidden by default;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/help.svg' ?>" /> <b>Help.</b> Opens the reference information window for the current list;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/search.svg' ?>" /> <b>Search.</b> Opens the plugin search form within the list;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/filter.svg' ?>" /> <b>Filter.</b> Filters the list of plugins based on their installation status: displays either installed or uninstalled plugins (depending on the selected criterion).</li>
     </ul>
 </article>
