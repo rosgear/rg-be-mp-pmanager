@@ -12,8 +12,8 @@
 return [
     'name'        => 'Plugin Manager',
     'description' => 'Website Plugin Manager',
-    'version'     => '1.0',
-    'versionDate' => '20-12-2017',
+    'version'     => '1.0.1',
+    'versionDate' => '28-09-2026',
     'author'      => 'RosGear',
     'authorUrl'   => 'https://rosgear.ru/',
     'email'       => 'info@rosgear.ru',
